@@ -1,0 +1,76 @@
+/* Style for the navigation bar */
+body {
+  background-image: linear-gradient(to bottom right,#01257D ,#00FFFF );
+  margin: -10px;
+  padding: -10px;
+}
+
+body img {
+    /* Set up positioning */
+    height: 35rem;
+    width: 100%;
+}
+
+header {
+    color: #fff;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 50px;
+  }
+  
+  /* Style for links when hovered */
+  nav a:hover {
+    color: #00FFFF;
+  }
+  
+  /* Style for the active link (if needed) */
+  nav a.active {
+    color: #00FFFF;
+  }
+
+  header img{
+    height:80px;
+    width: 80px;
+    margin-left: 50px;
+  }
+
+  header h1{
+    margin-right: 270px;
+    font-weight: lighter;
+    font-size: 35px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    nav ul {
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  

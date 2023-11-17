@@ -1,0 +1,32 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resumecontainer{
+    background: url('background1.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    text-align: center;
+    color: white;
+}
+
+input[type=submit]{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+input[type=file]
+{
+    background-color: lightblue;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;  
+    border-radius: 20px;  
+}
